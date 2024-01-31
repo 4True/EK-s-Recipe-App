@@ -1,9 +1,17 @@
 /* Add custom styles here */
 
+/* Main Colours to be used */
+:root {
+    --navbar-color: rgb(64, 144, 32); /* colour for navbar */
+    --navbar-hover: rgb(238, 255, 187); /* colour for when user hovers over the navbar's text (different from colour pallete's lighter green as it was difficult for my friend to see it) --> my friend recommended using black as the default colour for the text - white was difficult for him to see */
+    --body-font-color: rgb(42, 40, 41); /* font colour from the black in the colour pallete */
+    --body-hover-color: rgb(242, 150, 51); /* change font colour on hover if needed */ /* won't be using the red colour for now */
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: rgb(247, 247, 247); /* page background colour */
+    color: var(--body-font-color); 
 }
 
 /* Add more styles */
