@@ -52,5 +52,18 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
+<ul>
+<li>Day.js API: https://day.js.org/en/</li>
+<li>Meta tag and information for Internet Explorer render engine: https://www.geeksforgeeks.org/what-does-meta-http-equivx-ua-compatible-contentieedge-do/</li>
+<li>jQuery API: https://releases.jquery.com/jquery/</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
 - Special thanks to [Spoonacular](https://spoonacular.com/) for providing example recipe data.
 - Inspired by the need for a simple and healthy recipe discovery tool for users with busy lifestyles.
