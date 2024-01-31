@@ -56,7 +56,7 @@ This project is licensed under the [MIT License](LICENSE).
 <li>Day.js API: https://day.js.org/en/</li>
 <li>Meta tag and information for Internet Explorer render engine: https://www.geeksforgeeks.org/what-does-meta-http-equivx-ua-compatible-contentieedge-do/</li>
 <li>jQuery API: https://releases.jquery.com/jquery/</li>
-<li></li>
+<li>Bootstrap CDN: https://getbootstrap.com/docs/5.3/getting-started/introduction/</li>
 <li></li>
 <li></li>
 <li></li>
