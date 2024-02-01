@@ -21,3 +21,7 @@ body {
       font-size: 3.5rem;
     }
   }
+
+  .flex-auto {
+    flex: 0 0 auto;
+  }
