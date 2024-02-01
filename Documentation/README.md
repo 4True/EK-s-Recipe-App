@@ -85,7 +85,7 @@ This project is licensed under the [MIT License](LICENSE).
 <li>jQuery API: https://releases.jquery.com/jquery/</li>
 <li>Bootstrap CDN: https://getbootstrap.com/docs/5.3/getting-started/introduction/</li>
 <li>Font Awesome API: https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=auto_modal</li>
-<li></li>
+<li>Fetch API method used in script.js file: Standard approach presented in bootcamp, © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.</li>
 <li></li>
 <li></li>
 <li></li>
