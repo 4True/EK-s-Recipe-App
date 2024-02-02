@@ -2,25 +2,60 @@
 
 /* Main Colours to be used */
 :root {
-    --navbar-color: rgb(64, 144, 32); /* colour for navbar */
-    --navbar-hover: rgb(238, 255, 187); /* colour for when user hovers over the navbar's text (different from colour pallete's lighter green as it was difficult for my friend to see it) --> my friend recommended using black as the default colour for the text - white was difficult for him to see */
-    --body-font-color: rgb(42, 40, 41); /* font colour from the black in the colour pallete */
-    --body-hover-color: rgb(242, 150, 51); /* change font colour on hover if needed */ /* won't be using the red colour for now */
+    --elements-color: rgb(64, 144, 32); /* colour for navbar & button */
+    --navbar-hover: rgb(238, 255, 187); /* colour for when user hovers over the navbar */
+    --btn-hover: rgb(242, 150, 51); /* colour for when user hovers over a button */
+    --main-font-color: rgb(42, 40, 41); /* font colour from the black in the colour pallete */
+    /* won't be using the red colour for now */
 }
 
 body {
     font-family: 'Arial', sans-serif;
     background-color: rgb(247, 247, 247); /* page background colour */
-    color: var(--body-font-color); 
+    color: var(--main-font-color);
+    margin: none;
+    padding: none;
 }
 
 /* Add more styles */
 header {
-  background-color: var(--navbar-color);
+  background-color: var(--elements-color);
+  color: var(--main-font-color);
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--main-font-color);
+}
+
+.nav-link:hover {
+  color: var(--navbar-hover)
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--navbar-hover);
+  color: var(--main-font-color);
+}
+
+#jumbletron {
+  background-image: url(../images/background-image.png);
+  background-size: cover;
 }
 
 footer {
   margin-top: 15px;
+}
+
+.btn {
+  background-color: var(--elements-color);
+  border-color: var(--elements-color);
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: var(--main-font-color);
 }
 
 @media (min-width: 768px) {
