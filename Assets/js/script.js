@@ -15,5 +15,3 @@ fetch(queryURL)
     
 
 });
-
-console.log(process.env)
