@@ -4,7 +4,7 @@
 :root {
     --elements-color: rgb(64, 144, 32); /* colour for navbar & button */
     --navbar-hover: rgb(238, 255, 187); /* colour for when user hovers over the navbar */
-    --btn-hover: rgb(242, 150, 51); /* colour for when user hovers over a button */
+    --main-hover: rgb(242, 150, 51); /* colour for when user hovers over a button */
     --main-font-color: rgb(42, 40, 41); /* font colour from the black in the colour pallete */
     /* won't be using the red colour for now */
 }
@@ -40,6 +40,12 @@ header {
   background-size: cover;
 }
 
+img {
+  height: 400px;
+  width: 700px;
+  object-fit: cover;
+}
+
 footer {
   margin-top: 15px;
   text-align: center;
@@ -52,14 +58,23 @@ footer p {
   padding-bottom: 2px;
 }
 
+footer a {
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--main-hover);
+}
+
 .btn {
   background-color: var(--elements-color);
   border-color: var(--elements-color);
 }
 
 .btn:hover {
-  background-color: var(--btn-hover);
-  border-color: var(--btn-hover);
+  background-color: var(--main-hover);
+  border-color: var(--main-hover);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   color: var(--main-font-color);
 }
