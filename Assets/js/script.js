@@ -1,5 +1,5 @@
 // API keys
-const apiKey = "06fa0a19059d4be1a0fed0389115d2a2";
+const apiKey = "e0f916e4a388433b898cafd376fd0254";
 const apiUrl = "https://api.spoonacular.com/recipes/complexSearch";
 const imagePlaceholderUrl = "https://placehold.co/700x400"; // Placeholder image URL
 
