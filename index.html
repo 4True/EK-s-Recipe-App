@@ -1,133 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8"/>
-    
-    <!-- Line to scale website correctly on iPhone -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Line to force Internet Explorer to use latest engine - References: https://www.geeksforgeeks.org/what-does-meta-http-equivx-ua-compatible-contentieedge-do/-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- Link to Bootstrap 5.3 CDN. References: https://getbootstrap.com/docs/5.3/getting-started/introduction/-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- Custom css file for changes and overrides to bootstrap and website colour scheme -->
-    <link href="Assets/css/custom.css" rel="stylesheet">
-    
     <title>EK's Food App</title>
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="ek.css" rel="stylesheet">
 </head>
-
 <body>
-  <header id="header">
-  <div class="container-fluid">
-    <!--Navigation starts here-->  
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <span class="fs-4">Ek's Recipe App</span>
-        </a>
-  
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contributors</a></li>
-          
-        </ul>
-      </header>
-    </div>
-    </nav>
-  </div>
-  </header>
-  <!--Header section ends here-->
-  
-  <!--Hero begins here-->
-  <section id="jumbletron" class="container-fluid">
-
-    <!--intro section starts here-->
-    <div class="p-5 mb-4 text-center">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">What will you eat today?</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Get healthy meal recipes fast and easy.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <form class="row gy-2 gx-3 align-items-center">
-          <div class="col-auto">
-            <input type="text" class="form-control" id="autoSizingInput" placeholder="Enter an ingredient">
-          </div>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Generate</button>
-          </div>
-          </form>
+    <header id="header">
+        <div class="container-fluid">
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3">
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <span class="fs-4">Ek's Recipe App</span>
+                    </a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contributors</a></li>
+                    </ul>
+                </header>
+            </div>
         </div>
-    </div>
-    <!--intro section ends here-->
-  </section>
-  
-  <!--Hero ends here-->
-
-  <!--content starts here-->
-  <main class="container">
-    <div class="row g-5">
-      <div class="col-md-4 bg-primary-subtle" id="side-bar">
-        <h3 class="fw-light p-1">Recipe of the day</h3>
-        
-      </div>
-  
-      <div class="col-md-8" id="Recipes">
-        <div>
-          <img src="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/10/9cjluQDZ-healthyrestaurantsindubai_1-1200x800.jpg" class="card-img-top"
-          
+    </header>
+    <section id="jumbletron" class="container-fluid">
+        <div class="p-5 mb-4 text-center">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">What will you eat today?</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Get healthy meal recipes fast and easy.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <form id="recipeForm" class="row gy-2 gx-3 align-items-center">
+                            <div class="col-auto">
+                                <input type="text" class="form-control" id="autoSizingInput" placeholder="Enter an ingredient">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary">Generate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h3>
-          Generated Recipe
-        </h3>
-      </div>
-    </div>
-  </main>
-  
-  
-  </div>
-  <footer>
-    <div class="container-fluid text-center">
-      <p>Made with love by Group 10 | Powered by <a href="https://spoonacular.com/food-api">Spoonacular</a> & <a href="https://www.edamam.com/">Edamam</a></p>
-    </div>
-  </footer>
-  
-  <!-- Your HTML content goes here -->
-
-  <!-- jQuery API - References: https://releases.jquery.com/jquery/ -->
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-  <!-- Day.js API - References: https://day.js.org/en/ -->
-  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/dayjs.min.js"></script>
-
-  <!-- Script for Bootstrap 5.3. References: https://getbootstrap.com/docs/5.3/getting-started/introduction/-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-  <!-- Additional Bootstrap Links for dropdowns, popovers, and tooltips. References: https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
-  <!-- Font Awesome API. References: https://fontawesome.com/?utm_source=font_awesome_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=auto_modal-->
-  <script src="https://kit.fontawesome.com/df9e203019.js" crossorigin="anonymous"></script>
-
-  <!-- Link to our javascript file -->
-  <script src="Assets/js/script.js"></script>
-
-    <!-- jQuery -->
+    </section>
+    <main class="container">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <div class="row g-2">
+                    <div class="col-12">
+                        <img id="recipeImage" class="card-img-top" src="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/10/9cjluQDZ-healthyrestaurantsindubai_1-1200x800.jpg" alt="Recipe Image">
+                    </div>
+                    <div class="col-12">
+                        <h3 id="recipeTitle" class="mt-3">
+                            Generated Recipe
+                        </h3>
+                    </div>
+                    <div class="col-12">
+                        <ul id="ingredientsList" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid text-center">
+            <p>Made with love by Group 10 | Powered by Spoonacular & Edamam</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-    <!-- Bootstrap 5 JS (Optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-    <!-- Your JS File -->
-    <script src="Assets/js/script.js"></script>
-
+    <script src="ek.js"></script>
 </body>
+</html>
+
 
 </html>
   
