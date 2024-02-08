@@ -22,7 +22,7 @@ EK's Food App is a front-end jQuery application that simplifies the process of d
 
 ## Screenshot
 
-- [Screenshot](Assets/images/Screenshot of app.png)
+- [Screenshot](Assets/images/Screenshot.png)
 
 ## How to Use
 
