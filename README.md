@@ -19,6 +19,11 @@ EK's Food App is a front-end jQuery application that simplifies the process of d
   - Users can generate a shopping list for a chosen recipe.
   - The shopping list includes essential ingredients required for the selected recipe.
 
+
+## Screenshot
+
+- [Screenshot](Assets/images/Screenshot of app.png)
+
 ## How to Use
 
 1. Clone the repository.
