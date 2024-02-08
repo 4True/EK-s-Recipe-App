@@ -19,7 +19,7 @@ Welcome to EK's Food App, a user-friendly front-end jQuery application designed 
   - Generate a shopping list for any chosen recipe, including essential ingredients required.
 
 
-## Demo to App
+## Application Demo
 
 [https://4true.github.io/EK-s-Recipe-App/]
 
