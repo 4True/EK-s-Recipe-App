@@ -46,6 +46,10 @@ img {
   object-fit: cover;
 }
 
+.row.g-5 {
+  justify-content: center;
+}
+
 footer {
   margin-top: 15px;
   text-align: center;
