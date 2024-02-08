@@ -22,8 +22,8 @@ EK's Food App is a front-end jQuery application that simplifies the process of d
 
 ## Screenshot
 
-- (Assets/images/Screenshot.png)
-
+- ![Assets/images/Screenshot.png](Assets/images/Screenshot.png)
+  
 ## How to Use
 
 1. Clone the repository.
