@@ -25,7 +25,7 @@ Welcome to EK's Food App, a user-friendly front-end jQuery application designed 
 
 ## Screenshot
 
-- ![Screenshot](Assets/images/Screenshot.png)
+- ![Assets/images/Screenshot.png](Assets/images/Screenshot.png)
   
 ## How to Use
 
