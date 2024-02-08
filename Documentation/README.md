@@ -1,4 +1,4 @@
-# EK's Food App
+# EK's Food App 
 
 EK's Food App is a front-end jQuery application that simplifies the process of discovering quick and healthy recipes, coupled with detailed nutritional information. This application caters to users with busy lifestyles who aim to make informed decisions about their meals while maintaining health-conscious choices.
 
