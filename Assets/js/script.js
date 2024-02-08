@@ -14,7 +14,7 @@ function handleFormSubmission(event) {
     // Check if the ingredient field is not empty
     if (ingredient.trim() !== "") {
         // Build the API URL with ingredient and API key
-        const queryUrl = '${apiUrl}?apiKey=${apiKey}&query=${ingredient}&number=1';
+        const queryUrl = `${apiUrl}?apiKey=${apiKey}&query=${ingredient}&number=1`;
 
         // Fetch data from Spoonacular API
         fetch(queryUrl)
