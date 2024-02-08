@@ -65,7 +65,7 @@ Contributions are welcome! If you have suggestions, feature requests, or find an
 
 ### Contributors
 
-- [Contributor 1](https://github.com/ToussaintPhillips)
+- [Toussaint Phillips](https://github.com/ToussaintPhillips)
 - [Contributor 2](https://github.com/contributor2)
 - [Contributor 3](https://github.com/contributor3)
 - [Contributor 4](https://github.com/contributor4)
