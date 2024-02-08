@@ -1,5 +1,3 @@
-Certainly! To enhance the styling and responsiveness of EK's Food App, we can incorporate Bootstrap 5. Additionally, I've added a section for contributors in the README file:
-
 # EK's Food App
 
 EK's Food App is a front-end jQuery application that simplifies the process of discovering quick and healthy recipes, coupled with detailed nutritional information. This application caters to users with busy lifestyles who aim to make informed decisions about their meals while maintaining health-conscious choices.
@@ -67,7 +65,7 @@ Contributions are welcome! If you have suggestions, feature requests, or find an
 
 ### Contributors
 
-- [Contributor 1](https://github.com/contributor1)
+- [Contributor 1](https://github.com/ToussaintPhillips)
 - [Contributor 2](https://github.com/contributor2)
 - [Contributor 3](https://github.com/contributor3)
 - [Contributor 4](https://github.com/contributor4)
