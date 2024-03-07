@@ -76,9 +76,9 @@ Contributions are welcome! If you have suggestions, feature requests, or find an
 ### Contributors
 
 - [Toussaint Phillips](https://github.com/ToussaintPhillips)
-- [Contributor 2](https://github.com/contributor2)
-- [Contributor 3](https://github.com/contributor3)
-- [Contributor 4](https://github.com/contributor4)
+- [Ufuoma Avwenagha](https://github.com/animagine)
+- [Rajpreet](https://github.com/RajpreetKR)
+- [Evans](https://github.com/Evans20kom)
 
 ## License
 
